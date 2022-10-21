@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+}
+.navbar{
+	width: 100%;
+	height: 100px;
+	top: 0;
+	left: 0;
+	background: rgba(255, 255, 255, .7s);
+}
+.content{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.nav ul{
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+}
+.nav ul li{
+	padding: 20px 20px;
+}
+a{
+	text-decoration: none;
+	color: grey;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-weight: 800px;
+	font-size: 12px;
+}
+.logo{
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 420px;
+}
+.logo span{
+	color: crimson;
+	font-size: 48px;
+	font-weight: 600;
+}
+.nav ul li a:hover{
+	color: black;
+}
+.btn{
+	
+	padding-top: 50px;
+}
+.btn1{
+	padding: 12px 30px;
+	border-radius: 100px;
+	font-size: 10px;
+	color: black;
+	margin-right: 40px;
+	background-color: white;
+	border-width: 50px;
+}
+.btn2{
+	padding: 12px 30px;
+	border-radius: 100px;
+	font-size: 10px;
+	color: white;
+	background: red;
+	border-width: 50px;
+}	
+.header{
+	background-image: url(media/image/men.jpg);
+	width: 100%;
+	height: 800px;
+	margin-top: 1px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header-text{
+	padding-top: 150px;
+}
+.header-text h1{
+	padding-top: 30px;
+	color: dimgray;
+	font-size: 40px;
+	width: 400px;
+	word-spacing: 5px;
+	padding-bottom: 20px;
+}
+.header-text .text{
+    width: 300px;
+    display: flex;
+
+}
+.header-text .text span{
+	color: grey;
+	word-spacing: 2px;
+}
